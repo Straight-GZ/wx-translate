@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/history/history",
+    "pages/change/change"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1c1b21",
+    "navigationBarTitleText": "可乐翻译",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position": "bottom",
+    "color": "#595959",
+    "selectedColor": "#999",
+    "backgroundColor": "black",
+    "list": [
+      {
+        "iconPath": "./assets/fanyi.png",
+        "pagePath": "pages/index/index",
+        "text": "翻译"
+      },
+      {
+        "iconPath": "./assets/history.png",
+        "pagePath": "pages/history/history",
+        "text": "历史"
+      }
+    ],
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+  },
+  "sitemapLocation": "sitemap4.json"
+}
